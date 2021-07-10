@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/react-conference/static/css/main.7a5832e7.chunk.css",
+    "main.js": "/react-conference/static/js/main.49a92702.chunk.js",
+    "main.js.map": "/react-conference/static/js/main.49a92702.chunk.js.map",
+    "runtime-main.js": "/react-conference/static/js/runtime-main.0c3e35e5.js",
+    "runtime-main.js.map": "/react-conference/static/js/runtime-main.0c3e35e5.js.map",
+    "static/js/2.0d95e99f.chunk.js": "/react-conference/static/js/2.0d95e99f.chunk.js",
+    "static/js/2.0d95e99f.chunk.js.map": "/react-conference/static/js/2.0d95e99f.chunk.js.map",
+    "index.html": "/react-conference/index.html",
+    "static/css/main.7a5832e7.chunk.css.map": "/react-conference/static/css/main.7a5832e7.chunk.css.map",
+    "static/js/2.0d95e99f.chunk.js.LICENSE.txt": "/react-conference/static/js/2.0d95e99f.chunk.js.LICENSE.txt",
+    "static/media/conference-building.0751d2d1.jpg": "/react-conference/static/media/conference-building.0751d2d1.jpg",
+    "static/media/cross.2001e956.svg": "/react-conference/static/media/cross.2001e956.svg",
+    "static/media/food1.30cef4ba.jpg": "/react-conference/static/media/food1.30cef4ba.jpg",
+    "static/media/food2.c660cbd1.jpg": "/react-conference/static/media/food2.c660cbd1.jpg",
+    "static/media/food3.5b1724a3.jpg": "/react-conference/static/media/food3.5b1724a3.jpg",
+    "static/media/food4.a9832c81.jpg": "/react-conference/static/media/food4.a9832c81.jpg",
+    "static/media/food5.399bfadb.jpg": "/react-conference/static/media/food5.399bfadb.jpg",
+    "static/media/HeroSection.css": "/react-conference/static/media/hero-background-image.e0280c00.jpg",
+    "static/media/hotel1.094cfe93.jpg": "/react-conference/static/media/hotel1.094cfe93.jpg",
+    "static/media/hotel2.eda3fde6.jpg": "/react-conference/static/media/hotel2.eda3fde6.jpg",
+    "static/media/hotel3.0e64d0d3.jpg": "/react-conference/static/media/hotel3.0e64d0d3.jpg",
+    "static/media/hotel4.59575dbd.jpg": "/react-conference/static/media/hotel4.59575dbd.jpg",
+    "static/media/hotel5.ade822e0.jpg": "/react-conference/static/media/hotel5.ade822e0.jpg",
+    "static/media/menu.baa9f4c3.svg": "/react-conference/static/media/menu.baa9f4c3.svg",
+    "static/media/undraw_female_avatar.212cbf3c.svg": "/react-conference/static/media/undraw_female_avatar.212cbf3c.svg",
+    "static/media/undraw_male_avatar.107af4c5.svg": "/react-conference/static/media/undraw_male_avatar.107af4c5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c3e35e5.js",
+    "static/js/2.0d95e99f.chunk.js",
+    "static/css/main.7a5832e7.chunk.css",
+    "static/js/main.49a92702.chunk.js"
+  ]
+}
