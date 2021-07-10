@@ -1,0 +1,24 @@
+.App nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+}
+
+/* the content class is used by each page component*/
+.App .content {
+    /* 
+    The navbar has 6.3 rem height and it's position is fixed
+    So push the content down
+    */
+    margin-top: 6.3rem;
+    /* Set padding here to avoid setting on each compnent */
+    padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .App .content {
+        padding: 2rem 4rem;
+    }
+}

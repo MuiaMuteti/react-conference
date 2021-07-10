@@ -1,0 +1,54 @@
+.foodHotel section {
+    margin-top: 4rem;
+}
+
+.subTitle2 {
+    font-weight: normal;
+}
+
+.subTitle2::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 4rem;
+    border: 3px solid rgba(2, 86, 97, 0.4);
+}
+
+.foodHotelList {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.foodDetails {
+    margin-top: 1rem;
+}
+
+.foodDetails h2 {
+    font-weight: 600;
+}
+
+.foodDetails .directions {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.foodHotelList .imageContentCard .contentImage {
+    width: 100%;
+    height: 145px;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .foodHotelList {
+        gap: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .foodHotelList .imageContentCard .contentImage {
+        height: 175px;
+    }
+}

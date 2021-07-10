@@ -1,0 +1,10 @@
+.conductCode {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#conductList {
+    padding-left: 1rem;
+    list-style-position: inside;
+}

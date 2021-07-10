@@ -1,0 +1,22 @@
+#logo {
+    text-decoration: none;
+}
+
+#logo .logoTitle {
+    font-size: 2rem;
+    color: #025661;
+    letter-spacing: 1px;
+}
+
+#logo .tags {
+    font-size: 2rem;
+    color: #222;
+}
+
+@media screen and (min-width: 1200px) {
+
+    #logo .logoTitle,
+    #logo .tags {
+        font-size: 2.4rem;
+    }
+}

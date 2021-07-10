@@ -1,0 +1,35 @@
+#speakers {
+    margin-top: 5rem;
+}
+
+.speaker {
+    margin-top: 1rem;
+}
+
+.speaker p {
+    margin-top: 1rem;
+}
+
+.speakersList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+#speakers h2 {
+    margin-bottom: 2rem;
+}
+
+#speakers h2::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 4rem;
+    border: 3px solid rgba(2, 86, 97, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+    .speakersList {
+        gap: 4rem;
+    }
+}

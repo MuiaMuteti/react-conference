@@ -1,0 +1,105 @@
+.navBar {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    gap: 2rem;
+    height: 6.3rem;
+}
+
+/* fill the screen if menu is opened */
+.navBar.open {
+    height: 100%;
+}
+
+#icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links {
+    display: none;
+    text-align: center;
+}
+
+/* show menu */
+#links.active {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    justify-content: space-evenly;
+    background-color: rgba(106, 219, 251, 0.2);
+}
+
+#links a {
+    font-size: 1.6rem;
+    color: #222;
+    text-decoration: none;
+}
+
+#logo img {
+    height: 30px;
+    width: auto;
+}
+
+/* the menu button */
+#menu {
+    background-color: #fff;
+    border: none;
+}
+
+#menu img {
+    height: 30px;
+    width: auto;
+}
+
+#links .activeLink {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navBar {
+        padding: 1.5rem 4rem;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    #homeLink,
+    #menu {
+        display: none;
+    }
+
+    /* display logo and links horizontally */
+    .navBar {
+        flex-direction: row;
+        gap: 10rem;
+    }
+
+    #links {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        align-items: center;
+        gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #links a {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .navBar {
+        gap: 15rem;
+    }
+}

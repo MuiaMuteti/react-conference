@@ -1,0 +1,98 @@
+.hero {
+    position: relative;
+    height: calc(100vh - 6.3rem);
+    background: linear-gradient(rgba(174, 236, 234, 0.9), rgba(72, 177, 191, 0.8)),
+        url("./images/hero-background-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -2rem -2rem 0 -2rem;
+    padding: 2rem;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+}
+
+.bookButton {
+    display: block;
+    background-color: #ffee58;
+    color: #000;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: auto;
+}
+
+.heroText p {
+    font-weight: 600;
+}
+
+#heroTitle {
+    margin-bottom: 2rem;
+}
+
+#joinUs {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+
+#locationLink {
+    margin-top: 0.5rem;
+}
+
+#locationLink a:link {
+    color: #222;
+}
+
+#locationLink a:visited {
+    color: #222;
+}
+
+#locationLink a:hover {
+    color: #fff;
+}
+
+#locationLink a:active {
+    color: #fff;
+}
+
+#heroDesc {
+    margin-top: 3rem;
+}
+
+#heroDescPara {
+    margin-top: 1rem;
+}
+
+/* media queries */
+
+@media screen and (min-width: 425px) {
+    .bookButton {
+        margin-top: 6rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        margin: -2rem -4rem 0 -4rem;
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bookButton {
+        font-size: 3rem;
+        padding: 1rem 4rem;
+        width: 24rem;
+    }
+
+    #joinUs {
+        font-size: 2.1rem;
+    }
+}

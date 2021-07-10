@@ -1,0 +1,65 @@
+#schedule table {
+    margin-top: 2rem;
+}
+
+#schedule th {
+    display: none;
+}
+
+#schedule tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#schedule td {
+    display: block;
+    border: none;
+    padding: unset;
+    margin-bottom: 1rem;
+}
+
+#schedule td:first-child {
+    margin-top: 1rem;
+}
+
+#schedule td::before {
+    content: attr(data-th)": ";
+    font-weight: 600;
+    display: inline-block;
+    width: 10rem;
+}
+
+/* display a table as normal */
+
+@media screen and (min-width: 768px) {
+
+    #schedule td,
+    #schedule th {
+        padding: 1rem;
+    }
+
+    #schedule th {
+        display: table-cell;
+    }
+
+    #schedule tr {
+        border: none;
+    }
+
+    #schedule td {
+        display: table-cell;
+        margin: 0;
+    }
+
+    #schedule td:first-child {
+        margin: 0;
+    }
+
+    #schedule td::before {
+        display: none;
+    }
+
+    #schedule tr:nth-child(even) {
+        background-color: rgba(196, 223, 226, 0.3);
+    }
+}

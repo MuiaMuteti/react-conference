@@ -1,0 +1,12 @@
+.error {
+    padding: 1rem;
+    text-align: center;
+}
+
+.error img {
+    width: 30rem;
+}
+
+.error h1 {
+    margin-top: 2rem;
+}

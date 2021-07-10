@@ -1,0 +1,20 @@
+.imageContentCard {
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.2), -1px -1px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fefefe;
+}
+
+.contentImage {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+@media screen and (min-width: 768px) {
+    .imageContentCard {
+        padding: 2rem;
+    }
+}
