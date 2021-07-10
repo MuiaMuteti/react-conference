@@ -1,6 +1,6 @@
 import './App.css';
 
-import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import HomePage from './components/HomePage';
 import NoMatch from './components/NoMatch';
@@ -13,7 +13,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         {/* scroll to top if page changes */}
         <ScrollToTop />
