@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import HomePage from './components/HomePage';
 import NoMatch from './components/NoMatch';
